@@ -11,7 +11,7 @@ address:
     address: "Université de Sherbrooke, Départment de biologie, 2500 Boulevard de l'Université, Sherbrooke, Québec, G1V 0A9"
 
 abstract: |
-  
+  allo
 
 ## must be one of: pnasresearcharticle (usual two-column layout), pnasmathematics (one column layout), or pnasinvited (invited submissions only)
 pnas_type: pnasresearcharticle
@@ -26,7 +26,7 @@ output: rticles::pnas_article
 ---
 
 
-Problème - @radiocan
+Problème @radiocan
 
 - pas/mauvaise révision par les pairs
 - journalists non compétent ou politicien qui allait puissé des résultats dans les prépublication
@@ -36,9 +36,8 @@ Problème - @radiocan
 - partager l'info vite et efficacement et augmenter la collaboration internationnal
 - bcp de révision: erreur corriger plus rapidement
 
-Problème - @Baker2016
-- 
+Problème @Baker2016
 
-problème - @mesirov
-- 
+problème @mesirov
+
 

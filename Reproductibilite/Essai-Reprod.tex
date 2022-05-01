@@ -12,25 +12,47 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-% From pandoc table feature
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
+
+% Pandoc citation processing
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+% for Pandoc 2.8 to 2.10.1
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+% For Pandoc 2.11+
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 
+\templatetype{pnasresearcharticle}  % Choose template
 
-\templatetype{pnasresearcharticle}
+\title{Les collaborations entre les étudiants en BIO500 et leur
+ressemblance aux réseaux écologiques}
 
-\title{}
+\author[a]{Pénélope Robert}
 
-
+  \affil[a]{Université de Sherbrooke, Départment de biologie, 2500
+Boulevard de l'Université, Sherbrooke, Québec, G1V 0A9}
 
 
 % Please give the surname of the lead author for the running footer
@@ -50,7 +72,7 @@
 
 
 \begin{abstract}
-
+allo
 \end{abstract}
 
 \dates{This manuscript was compiled on \today}
@@ -72,29 +94,7 @@
 
 \acknow{}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{0.06}}@{}}
-\toprule
-\endhead
-title: Les collaborations entre les étudiants en BIO500 et leur
-ressemblance aux réseaux écologiques \\
-\# Use letters for affiliations, numbers to show equal authorship (if
-applicable) and to indicate the corresponding author author: - name:
-Pénélope Robert affiliation: ``a'' \\
-address: - code: ``a'' address: ``Université de Sherbrooke, Départment
-de biologie, 2500 Boulevard de l'Université, Sherbrooke, Québec, G1V
-0A9'' \\
-abstract: \textbar{} \\
-\#\# must be one of: pnasresearcharticle (usual two-column layout),
-pnasmathematics (one column layout), or pnasinvited (invited submissions
-only) pnas\_type: pnasresearcharticle \\
-bibliography: biblio.bib csl: pnas.csl \\
-\#\# change to true to add optional line numbering lineno: false \\
-output: rticles::pnas\_article \\
-\bottomrule
-\end{longtable}
-
-Problème - (\textbf{radiocan?})
+Problème (1)
 
 \begin{itemize}
 \tightlist
@@ -116,13 +116,28 @@ Problème - (\textbf{radiocan?})
   bcp de révision: erreur corriger plus rapidement
 \end{itemize}
 
-\hypertarget{probluxe8me---baker2016}{%
-\subsection{\texorpdfstring{Problème -
-(\textbf{Baker2016?})}{Problème - (Baker2016?)}}\label{probluxe8me---baker2016}}
+Problème (2)
 
-\hypertarget{probluxe8me---mesirov}{%
-\subsection{\texorpdfstring{problème -
-(\textbf{mesirov?})}{problème - (mesirov?)}}\label{probluxe8me---mesirov}}
+problème (3)
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-radiocan}{}}%
+\CSLLeftMargin{1. }
+\CSLRightInline{Agence Science-Presse (2021) Des études trop rapide en
+temps de COVID.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Baker2016}{}}%
+\CSLLeftMargin{2. }
+\CSLRightInline{Baker M (2016) 1,500 scientists lift the lid on
+reproducibility. \emph{Nature} 533(7604):452--454.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-mesirov}{}}%
+\CSLLeftMargin{3. }
+\CSLRightInline{Mesirov JP (2010) Accessible reproducible research.
+\emph{Science} 327(5964):415--416.}
+
+\end{CSLReferences}
 
 
 
