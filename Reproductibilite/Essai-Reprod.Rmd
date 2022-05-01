@@ -1,0 +1,44 @@
+---
+title: Les collaborations entre les étudiants en BIO500 et leur ressemblance aux réseaux écologiques  
+
+# Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+author:
+  - name: Pénélope Robert
+    affiliation: "a"
+
+address:
+  - code: "a"
+    address: "Université de Sherbrooke, Départment de biologie, 2500 Boulevard de l'Université, Sherbrooke, Québec, G1V 0A9"
+
+abstract: |
+  
+
+## must be one of: pnasresearcharticle (usual two-column layout), pnasmathematics (one column layout), or pnasinvited (invited submissions only)
+pnas_type: pnasresearcharticle
+
+bibliography: biblio.bib
+csl: pnas.csl
+
+## change to true to add optional line numbering
+lineno: false
+
+output: rticles::pnas_article
+---
+
+
+Problème - @radiocan
+
+- pas/mauvaise révision par les pairs
+- journalists non compétent ou politicien qui allait puissé des résultats dans les prépublication
+- trop vite
+- normalement: super long
+- serveur de prépublication:
+- partager l'info vite et efficacement et augmenter la collaboration internationnal
+- bcp de révision: erreur corriger plus rapidement
+
+Problème - @Baker2016
+- 
+
+problème - @mesirov
+- 
+
