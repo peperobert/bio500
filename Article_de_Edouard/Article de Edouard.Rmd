@@ -1,0 +1,58 @@
+---
+title: Problème universelle de reproductibilité en science et une piste de solution 
+ 
+# Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+author:
+ 
+  - name: Édouard Nadon-Beaumier
+    affiliation: "a"
+ 
+ 
+address:
+  - code: "a"
+    address: "Université de Sherbrooke, Départment de biologie, 2500 Boulevard de l'Université, Sherbrooke, Québec, G1V 0A9"
+ 
+abstract: |
+ Avec l’augmentation des prépublications scientifique dues à la pandémie mondiale de SRAS-CoV-2 plusieurs problématiques des domaines scientifiques font couler de l’encre et animent les sujets de conversation. La perte de confiance d’une partie de la population démontre l’incapacité de la science à produire des résultats avec une transparence et une reproductibilité suffisamment grande. Une réforme du système de publication par la réduction de la pression à publier, un changement d’emphase de publications de résultats positive, une amélioration de l’intégrité scientifique et réduire l’importance d’une seule équipe sont nécessaires pour redonner confiance et améliorer les connaissances scientifiques. 
+ 
+ 
+## must be one of: pnasresearcharticle (usual two-column layout), pnasmathematics (one column layout), or pnasinvited (invited submissions only)
+pnas_type: pnasresearcharticle
+ 
+bibliography: pnas-sample.bib
+csl: pnas.csl
+ 
+## change to true to add optional line numbering
+lineno: false
+ 
+output: rticles::pnas_article
+---
+ 
+# Introduction 
+ 
+Avec l’effet de la pandémie de SRAS-CoV-2 et ses variants, plusieurs problèmes du domaine de la science on fait surface. Une des problématiques a été le besoin en connaissance sur ce virus et la quantité phénoménale d’articles publiés dans des journaux qui ont été par la suite retirer par la suite pour de multiple raison comme l’intégrité scientifique @khalifa2021fast. Ceci à causer dans certains cas de la désinformation dans les connaissances scientifiques et nous avons eu la possibilité d’observer un bris de confiance entre certaines personnes du public et la science avec plusieurs mouvements de protestations contre la vaccination de la Covid-19. De façon plus générale, le manque de transparence et de standard dans la production de réplication dans le jeu de données des recherches publiés cause un manque de confiance dans les résultats obtenus par les différents chercheurs et leur équipe. Dans une étude avec 1576 chercheurs dans différents domaines de la science, 52% d’eux sont d’accord qu’il y a une crise sur la reproductibilité des recherches produites. De plus, 73% des répondants affirment qu’au moins 50% des résultats obtenus sont véritables @baker20161. Il est utopique de s’attendre à avoir une confiance de 100% pour toutes les recherches publiées surtout en science lorsque les chercheurs travaillent avec des probabilités. Toutefois, le pourcentage de confiance minimum devrait être plus élevée que la moitié des publications. Il est impératif pour l’avancement des bonnes connaissances scientifiques et pour regagner la confiance de certaines parties du public d’améliorer la reproductibilité et la transparence des publications des différents domaines. Un changement dans la mentalité de publication est nécessaire par une diminution de la pression et de la quantité qu’un scientifique doit publier, par la diminution de l’emphase mise sur des articles à résultats positifs, par l’augmentation de la transparence des jeux de données utilisées. 
+ 
+# Emphase des articles publications 
+ 
+Les journaux les plus reconnus dans le monde scientifique reçoivent quotidiennement plus d’articles que ce qu’ils peuvent publier. Ainsi, les articles qui sont publiés doivent donner des résultats positifs à leur supposition de base et qui sont frappants afin d’attirer l’attention des lecteurs. Ceci crée une culture d’hypercompétition pour la publication des articles ce qui incite les chercheurs à obtenir des conclusions en faveur de leur hypothèse afin d’augmenter leurs chances d’être publié par ces journaux prestigieux @edwards2017academic. Toutefois, cette incitative à avoir uniquement des résultats positifs selon le modèle d’analyse de Grime et ses associés en 2018 diminue la fiabilité des résultats et augmente la proportion d’utilisation de faux positif dans le jeu de données afin d’obtenir des conclusions. Cette fraude par la manipulation de données permet aux auteurs d’améliorer leur chance de publication et d’obtenir de futures subventions au détriment d’un travail scientifique rigoureux et l’avancer des connaissances fiables. Cette problématique pourrait être réglée par un mouvement des journaux vers une acceptation accru des articles démontrant une excellente rigueur scientifique comme le fait le journal PLoS ONE. Depuis, 2017 d’autres journaux comme Royal Society Open Science et Nature Scientific Reports on fait le changement mais l’implication des grands journaux comme Nature, Cell, Cancer Journal for Clinicians auraient un impact encore plus significatif sur le changement de mentalité du domaine scientifique sur le type de publication priorisé @grimes2018modelling
+ 
+ 
+ 
+# Pression de Publication 
+Le mantra “publier ou périr” est couramment utilisé en science principalement dans les domaines médicaux car plusieurs évaluateurs académiques favorisent les publications scientifiques où bon sain apporter aux patients par un clinicien. Ceci est une récompense sous forme monétaire et de prestige des individus ayant un grand nombre de publication et aux nombres de citations de leurs articles @carpenter2014using. Ainsi, un scientifique aspirant à un meilleur poste doit fournir des résultats constants et rapides afin de pouvoir publier et rester à jour avec un domaine de grande concurrence pour les sources de financement insuffisantes pour tous les chercheurs @fang2015competitive. L'obtention d’opportunité d’emploi et d’avancement de carrière devrait favoriser la qualité des travaux publiés et de l’intégrité éthique et scientifique de la personne plutôt que son nombre de publications et de citations. Une solution à se produire est de réduire la quantité de productivité par auteur et tenter d’atteindre l’équilibre optimal en matière de productibilité scientifiques et de la qualité au travers la réplication et la transparence de la méthode utilisée et de tous les résultats obtenus @edwards2017academic
+ 
+![Modélisation de la production d'articles en science. \label{fig:plot1}]("../Article_de_Edouard/image.pdf"){width=50% height=40%}
+
+Avec une productibilité plus faible et une meilleure qualité de publication, la reproductibilité des expériences et des résultats obtenus seraient améliorées. Pour atteindre cette réduction de pression de publication, le domaine scientifique doit retirer du moins réduire la quantité d’importance octroyée à la quantité de publication vers des publications avec un haut taux de reproductibilité et des analyses pertinentes avec une puissante statistique élevée. 
+
+ 
+# Piste de solution à la reproductibilité 
+ 
+ 
+Une option due qui peut être mal vue est la diminution de l’importance humaine dans le projet avec l’utilisation de la technologie afin de réduire les erreurs humaines et garder une vision pragmatique dans toutes les étapes de la recherche scientifique. Cette solution potentielle peut être difficile d’implémenter en réalité. Une façon rapide et efficace de viser une meilleure reproductibilité est d’améliorer l’évaluation de la littérature scientifique actuelle. Ceci requiert que les scientifiques passent plus de temps dans la lecture scientifique, du temps qui est perdu dans les laboratoires et qui est mal vue avec la science moderne de production d’articles le plus rapidement possible @francca2019read. Plusieurs équipes de recherche travaillent sur les mêmes sujets ou des sujets similaires. En diminuant l’importance de la première donnée à la première équipe qui publie des résultats, ils frauderaient mettre la même importance pour toutes les recherches connexes @ioannidis2005most. Les résultats des autres équipes pourraient réduire l’effet de biais et confirmer la viridité des analyses des différentes équipes. En somme, le problème de reproductibilité n’est pas un nouveau sujet dans le domaine et plus longtemps le problème reste non régler plus il sera difficile de le résoudre. Pour la résolution toutes personnes impliquées dans le domaine scientifique devront jouer un rôle pour viser une meilleure reproductibilité. 
+ 
+\pnasbreak
+
+
+
+
